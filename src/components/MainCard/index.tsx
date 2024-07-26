@@ -1,9 +1,9 @@
 import NextImage from "next/image";
 
-export const BlogCard: React.FC<BlogCardProps> = (props) => {
+const MainCard: React.FC<BlogCardProps> = (props) => {
   return (
     <div className="flex justify-center items-stretch flex-col text-white">
-      <div className="relative h-56">
+      <div className="relative h-56 sm:h-72 md:h-96">
         <NextImage
           className="rounded-sm"
           src={props.image.url}
@@ -17,3 +17,5 @@ export const BlogCard: React.FC<BlogCardProps> = (props) => {
     </div>
   );
 };
+
+export default MainCard;

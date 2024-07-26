@@ -1,7 +1,7 @@
 export const blogsData: BlogCardProps[] = [
   {
     image: {
-      url: "/aws.jfif",
+      url: "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       altText: "",
     },
     publishDate: "Feb 24, 2024",
@@ -11,7 +11,7 @@ export const blogsData: BlogCardProps[] = [
   },
   {
     image: {
-      url: "/rn.jfif",
+      url: "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       altText: "",
     },
     publishDate: "Feb 24, 2024",

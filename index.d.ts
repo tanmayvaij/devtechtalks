@@ -15,6 +15,8 @@ interface BlogCardProps extends CardProps {
   highlight?: boolean;
 }
 
+interface HorizontalBlogCardProps extends BlogCardProps {}
+
 interface CardsViewProps {
   data: BlogCardProps[];
   viewTitle?: string;
